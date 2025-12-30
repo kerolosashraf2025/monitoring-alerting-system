@@ -25,4 +25,19 @@ Designed and implemented a centralized monitoring and alerting stack to monitor 
 - Containerized deployment using Podman
 
 ## Project Structure
+## Project Structure
+
+```bash
+monitoring-alerting-system/
+├── prometheus/
+│   ├── prometheus.yml
+│   └── rules/
+│       └── node-alerts.yml
+├── alertmanager/
+│   └── alertmanager.yml
+├── grafana/
+│   └── dashboards/
+├── screenshots/
+│   └── node-exporter-dashboard.png
+└── README.md
 
