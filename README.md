@@ -1,30 +1,43 @@
 # Centralized Monitoring & Alerting System
 
-## Overview
-Designed and implemented a centralized monitoring and alerting stack to monitor Linux hosts using Prometheus, Node Exporter, Alertmanager, and Grafana, deployed with Podman and automated using Ansible.
+A centralized monitoring and alerting solution built using **Prometheus**, **Grafana**, and **Alertmanager** to monitor Linux hosts, visualize system metrics, and trigger alerts based on predefined rules.
+
+This project demonstrates practical DevOps monitoring concepts with a production-like setup.
+
+---
 
 ## Tech Stack
+
 - Prometheus
-- Node Exporter
 - Alertmanager
 - Grafana
-- Podman
-- Ansible
+- Node Exporter
+- Podman (Containerized deployment)
 - Linux
 
+---
+
 ## Architecture
-- Central Prometheus server scraping Node Exporter metrics
+
+- Central Prometheus server scraping **Node Exporter** metrics
 - Alertmanager handling alert routing and notifications
 - Grafana dashboards for real-time visualization
+- Containerized services using Podman
+
+---
 
 ## Features
+
 - Centralized metrics collection
 - Host-level monitoring (CPU, Memory, Disk, Network)
 - Custom alert rules for system health
 - Grafana dashboards (Node Exporter Full)
 - Containerized deployment using Podman
 
+---
+
 ## Project Structure
+
 ```bash
 monitoring-alerting-system/
 ├── prometheus/
@@ -36,14 +49,13 @@ monitoring-alerting-system/
 ├── grafana/
 │   └── dashboards/
 ├── screenshots/
-│   └── node-exporter-dashboard.png
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   ├── 3.jpg
+│   ├── 4.jpg
+│   ├── 5.jpg
+│   ├── 6.jpg
+│   ├── 7.jpg
+│   ├── 8.jpg
+│   └── 9.jpg
 └── README.md
-
-## Screenshots
-
-![Dashboard](screenshots/1.jpg)
-![Dashboard](screenshots/2.jpg)
-![Dashboard](screenshots/3.jpg)
-![Dashboard](screenshots/4.jpg)
-
-
