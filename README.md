@@ -25,8 +25,6 @@ Designed and implemented a centralized monitoring and alerting stack to monitor 
 - Containerized deployment using Podman
 
 ## Project Structure
-## Project Structure
-
 ```bash
 monitoring-alerting-system/
 ├── prometheus/
