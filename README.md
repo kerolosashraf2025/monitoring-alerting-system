@@ -39,3 +39,11 @@ monitoring-alerting-system/
 │   └── node-exporter-dashboard.png
 └── README.md
 
+## Screenshots
+
+![Dashboard](screenshots/1.jpg)
+![Dashboard](screenshots/2.jpg)
+![Dashboard](screenshots/3.jpg)
+![Dashboard](screenshots/4.jpg)
+
+
